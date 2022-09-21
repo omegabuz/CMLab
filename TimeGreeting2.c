@@ -2,11 +2,6 @@
 #include <time.h>
 void main()
 { 
-/*
-  time_t timer;
-  timer=time(NULL);
-  printf("The current time is %s.\n",asctime(localtime(&timer)));*/
-  
   int hours, minutes; char Name[30], answer;
 
   time_t timer; 
